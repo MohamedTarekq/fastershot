@@ -1,5 +1,9 @@
 # fastershot
 - fastershot is a fast tool to take a screenshot from list of urls .
+### Setup:
+```
+pip3 install -r requirement.txt
+```
 
 ### Usage:
 ```
@@ -13,6 +17,7 @@ optional arguments:
   -l L        List of urls
   -n N        Number of requests per seconde default is 15
 ```
+### Examples:
 ```
 python3 fastershot.py -l urls.txt
 python3 fastershot.py -l urls.txt -n 30
